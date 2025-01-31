@@ -1,0 +1,2 @@
+# Project-Microservices-on-Kubernetes-Cluster-via-Jenkins-CICD-Pipeline
+Deploying -10 Microservices on Kubernetes cluster via Jenkins CI/CD Pipeline - 01- Launch a Base Server to Perform all Tasks. 02 -  SSH the Base Serverto Install Docker, Jenkins, Config Java, EKSCTL, KUBECTL etc. - 03 - Setup K8s Cluster in AWS EKS and Run a Multibranch Pipeline to fetch code from Github Repo and Deploy on EKS Cluster.
