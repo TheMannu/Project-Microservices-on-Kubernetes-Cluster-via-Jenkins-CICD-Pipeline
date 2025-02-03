@@ -20,5 +20,9 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 
 ### **Step 1: Set Up a Base Instance**
 1. **Launch an EC2 Instance:**
+   - Go to the AWS Management Console.
+   - Launch an EC2 instance with the following configuration:
+     - **AMI:** Ubuntu 24
+     - **Instance Type:** t2.large
 
 2. **Connect to the EC2 Instance via SSH:**
