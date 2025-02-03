@@ -29,3 +29,4 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
    - Download the key pair (.pem file) for SSH access.
 
 2. **Connect to the EC2 Instance via SSH:**
+   - Click on Connect → SSH Client → Copy the provided SSH command.
