@@ -15,3 +15,10 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 6. Running a multibranch Jenkins pipeline to fetch code from GitHub and deploy it on EKS
 
 ---
+
+## Step-by-Step Guide
+
+### **Step 1: Set Up a Base Instance**
+1. **Launch an EC2 Instance:**
+
+2. **Connect to the EC2 Instance via SSH:**
