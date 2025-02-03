@@ -24,5 +24,8 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
    - Launch an EC2 instance with the following configuration:
      - **AMI:** Ubuntu 24
      - **Instance Type:** t2.large
+     - **Storage:** 30GB
+     - **Open Security Group Ports:** 22 (SSH), 80 (HTTP), 443 (HTTPS), 8080 (Jenkins)
+   - Download the key pair (.pem file) for SSH access.
 
 2. **Connect to the EC2 Instance via SSH:**
