@@ -35,3 +35,8 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      ```bash
      ssh -i <your-key-pair>.pem ubuntu@<public-ip>
      ```
+
+---
+
+### **Step 2: Create an IAM User with Specific Permissions**
+1. **Create an IAM User:**
