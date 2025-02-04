@@ -31,3 +31,7 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 2. **Connect to the EC2 Instance via SSH:**
    - Click on Connect → SSH Client → Copy the provided SSH command.
    - Open your terminal and navigate to the folder where the .pem file is stored.
+   - Use the SSH command to connect to the instance:
+     ```bash
+     ssh -i <your-key-pair>.pem ubuntu@<public-ip>
+     ```
