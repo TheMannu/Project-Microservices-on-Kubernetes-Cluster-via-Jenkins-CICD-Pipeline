@@ -40,3 +40,4 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 
 ### **Step 2: Create an IAM User with Specific Permissions**
 1. **Create an IAM User:**
+   - Go to the AWS IAM Console → IAM → Users → Create User.
