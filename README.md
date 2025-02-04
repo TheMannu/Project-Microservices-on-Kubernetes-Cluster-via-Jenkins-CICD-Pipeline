@@ -47,3 +47,4 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      - `AmazonEKSWorkerNodePolicy`
      - `AWSCloudFormationFullAccess`
      - `IAMFullAccess`
+   - Download the user's access key and secret key.
