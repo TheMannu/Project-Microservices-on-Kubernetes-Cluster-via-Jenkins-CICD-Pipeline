@@ -70,3 +70,7 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
    - Create Access keys and Secret keys for the IAM user and download them for use in the AWS CLI.
    - Download and securely store the keys for later use
 ---
+
+
+### **Step 3: Set Up Kubernetes Cluster (EKS Cluster)**
+1. **Configure AWS CLI:**
