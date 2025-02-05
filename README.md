@@ -65,3 +65,6 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
        ]
      }
      ```
+
+3. **Generate Access Keys:**
+   - Create Access keys and Secret keys for the IAM user and download them for use in the AWS CLI.
