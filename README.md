@@ -52,3 +52,16 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 2. **Create an Inline Policy for EKS:**
    - In the IAM Console, Go to IAM → Policies → Create Inline Policy → JSON.
    - Create an inline policy with the following JSON:
+
+     ```json
+     {
+       "Version": "2012-10-17",
+       "Statement": [
+         {
+           "Effect": "Allow",
+           "Action": "eks:*",
+           "Resource": "*"
+         }
+       ]
+     }
+     ```
