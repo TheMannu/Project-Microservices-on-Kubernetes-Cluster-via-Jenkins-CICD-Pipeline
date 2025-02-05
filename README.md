@@ -74,3 +74,7 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 
 ### **Step 3: Set Up Kubernetes Cluster (EKS Cluster)**
 1. **Configure AWS CLI:**
+   - On your EC2 instance, run:
+     ```bash
+     aws configure
+     ```
