@@ -48,3 +48,7 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      - `AWSCloudFormationFullAccess`
      - `IAMFullAccess`
    - Download the user's access key and secret key.
+
+2. **Create an Inline Policy for EKS:**
+   - In the IAM Console, Go to IAM → Policies → Create Inline Policy → JSON.
+   - Create an inline policy with the following JSON:
