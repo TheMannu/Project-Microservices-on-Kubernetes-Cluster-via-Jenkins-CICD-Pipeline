@@ -87,3 +87,6 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      ```
 
 3. **Associate OIDC Provider:** → An OIDC provider (OpenID Connect provider) is like an identity verification service for applications. It ensures that people or systems accessing our application or cloud resources are who they claim to be.
+
+- Our ID card is the identity token.
+- The OIDC provider is the trusted system (the database) that confirms our ID is valid.
