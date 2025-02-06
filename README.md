@@ -78,3 +78,5 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      ```bash
      aws configure
      ```
+   - Provide the access key and secret key downloaded earlier.
+
