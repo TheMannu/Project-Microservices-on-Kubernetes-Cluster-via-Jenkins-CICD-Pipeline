@@ -90,3 +90,8 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 
 - Our ID card is the identity token.
 - The OIDC provider is the trusted system (the database) that confirms our ID is valid.
+
+   - Associate an OIDC provider with the cluster:
+     ```bash
+     eksctl utils associate-iam-oidc-provider --region ap-south-1 --cluster EKS-1 --approve
+     ```
