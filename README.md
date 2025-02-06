@@ -80,3 +80,8 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      ```
    - Provide the access key and secret key downloaded earlier.
 
+2. **Create an EKS Cluster:**
+   - Run the following command to create an EKS cluster:
+     ```bash
+     eksctl create cluster --name=EKS-1 --region=ap-south-1 --zones=ap-south-1a,ap-south-1b --without-nodegroup
+     ```
