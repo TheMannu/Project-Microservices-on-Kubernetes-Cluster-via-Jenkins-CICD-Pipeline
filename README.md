@@ -85,3 +85,5 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      ```bash
      eksctl create cluster --name=EKS-1 --region=ap-south-1 --zones=ap-south-1a,ap-south-1b --without-nodegroup
      ```
+
+3. **Associate OIDC Provider:** → An OIDC provider (OpenID Connect provider) is like an identity verification service for applications.
