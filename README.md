@@ -101,10 +101,18 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      ```bash
      eksctl create nodegroup --cluster=EKS-1 --region=ap-south-1 --name=node2 --node-type=t3.medium --nodes=3 --nodes-min=2 --nodes-max=4 --node-volume-size=20 --ssh-access --ssh-public-key=DevOps --managed --asg-access --external-dns-access --full-ecr-access --appmesh-access --alb-ingress-access
      ```
-     
+
 5. **Update Kubeconfig:** →This command is used to configure your local Kubernetes kubectl command-line tool to interact with an Amazon EKS (Elastic Kubernetes Service) cluster.
 
    - Update the kubeconfig file to interact with the EKS cluster:
      ```bash
      aws eks update-kubeconfig --region ap-south-1 --name EKS-1
+     ```
+
+6. **Create a Namespace:** A namespace in Kubernetes is like a folder for organizing resources. It helps you group and manage Kubernetes objects (like pods, services, or secrets) that belong to the same team, project, or environment.
+
+   - Create a namespace for the microservices:
+     ```bash
+     kubectl create namespace webapps
+     kubectl get namespaces
      ```
