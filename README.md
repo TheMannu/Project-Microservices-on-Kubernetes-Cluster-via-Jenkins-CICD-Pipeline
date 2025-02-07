@@ -137,3 +137,5 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      ```bash
      kubectl apply -f svc-acc.yaml
      ```
+     
+8. **Create a Role `(app-role.yaml)`:** It is used to define a Role or RoleBinding for an application in your cluster. It specifies what actions the application (or a service account used by the application) is allowed to perform on specific resources within a namespace.
