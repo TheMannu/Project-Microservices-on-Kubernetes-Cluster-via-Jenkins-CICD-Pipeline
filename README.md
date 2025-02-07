@@ -116,3 +116,5 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      kubectl create namespace webapps
      kubectl get namespaces
      ```
+
+7. **Create a Service Account `(svc-acc.yaml)`:** A Service Account in Kubernetes is like a special user for applications running in your cluster. It allows pods (your running applications) to interact with the Kubernetes API or other systems securely.
