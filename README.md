@@ -118,3 +118,22 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
      ```
 
 7. **Create a Service Account `(svc-acc.yaml)`:** A Service Account in Kubernetes is like a special user for applications running in your cluster. It allows pods (your running applications) to interact with the Kubernetes API or other systems securely.
+
+   - Create a service account for Jenkins:
+
+     ```bash
+     vim svc-acc.yaml
+     ```
+
+     ```yaml
+     apiVersion: v1
+     kind: ServiceAccount
+     metadata:
+       name: jenkins
+       namespace: webapps
+     ```
+
+     Apply the configuration:
+     ```bash
+     kubectl apply -f svc-acc.yaml
+     ```
