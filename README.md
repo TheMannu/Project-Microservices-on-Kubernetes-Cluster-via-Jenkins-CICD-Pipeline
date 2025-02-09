@@ -159,3 +159,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
          resources: ["pods", "componentstatuses", "configmaps", "daemonsets", "deployments", "events", "endpoints", "horizontalpodautoscalers", "ingress", "jobs", "limitranges", "namespaces", "nodes", "pods", "persistentvolumes", "persistentvolumeclaims", "resourcequotas", "replicasets", "replicationcontrollers", "serviceaccounts", "services"]
          verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
      ```
+
+     Apply the configuration:
+     ```bash
+     kubectl apply -f app-role.yaml
+     ```
