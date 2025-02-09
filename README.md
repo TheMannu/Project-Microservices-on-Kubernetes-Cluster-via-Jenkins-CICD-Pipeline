@@ -141,3 +141,9 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 8. **Create a Role `(app-role.yaml)`:** It is used to define a Role or RoleBinding for an application in your cluster. It specifies what actions the application (or a service account used by the application) is allowed to perform on specific resources within a namespace.
 A Role in Kubernetes grants permissions within a single namespace.
 It specifies what actions (like get, list, create, delete) are allowed on certain resources (like Pods, Services, ConfigMaps).
+
+   - Define a role for the service account:
+
+     ```bash
+     vim app-role.yaml
+     ```
