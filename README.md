@@ -164,3 +164,5 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```bash
      kubectl apply -f app-role.yaml
      ```
+
+9. **Bind the Role to the Service Account `(role-bind.yaml)`:** A RoleBinding binds a Role to a user, group, or service account, allowing them to use the permissions defined in the Role.
