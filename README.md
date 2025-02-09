@@ -147,3 +147,15 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```bash
      vim app-role.yaml
      ```
+
+     ```yaml
+     apiVersion: rbac.authorization.k8s.io/v1
+     kind: Role
+     metadata:
+       name: app-role
+       namespace: webapps
+     rules:
+       - apiGroups: ["", "apps", "autoscaling", "batch", "extensions", "policy", "rbac.authorization.k8s.io"]
+         resources: ["pods", "componentstatuses", "configmaps", "daemonsets", "deployments", "events", "endpoints", "horizontalpodautoscalers", "ingress", "jobs", "limitranges", "namespaces", "nodes", "pods", "persistentvolumes", "persistentvolumeclaims", "resourcequotas", "replicasets", "replicationcontrollers", "serviceaccounts", "services"]
+         verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+     ```
