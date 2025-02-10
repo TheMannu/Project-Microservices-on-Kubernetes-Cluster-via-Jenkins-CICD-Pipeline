@@ -187,3 +187,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
          name: jenkins
          namespace: webapps
      ```
+     
+     Apply the configuration:
+     ```bash
+     kubectl apply -f role-bind.yaml
+     ```
