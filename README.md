@@ -187,8 +187,10 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
          name: jenkins
          namespace: webapps
      ```
-     
+
      Apply the configuration:
      ```bash
      kubectl apply -f role-bind.yaml
      ```
+
+10. **Create a Secret Token by utilizing a service account in the desired namespace `(secret.yaml)`:** A secret token in Kubernetes is used to allow a pod or application to securely prove its identity and access resources it has permission for. It’s like a password or keycard for your application.
