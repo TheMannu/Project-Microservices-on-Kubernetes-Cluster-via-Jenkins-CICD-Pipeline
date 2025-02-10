@@ -210,3 +210,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
         annotations:
           kubernetes.io/service-account.name: jenkins
       ```
+
+      Apply the configuration:
+      ```bash
+      kubectl apply -f secret.yaml -n webapps
+      ```
