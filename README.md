@@ -171,3 +171,19 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```bash
      vim role-bind.yaml
      ```
+
+     ```yaml
+     apiVersion: rbac.authorization.k8s.io/v1
+     kind: RoleBinding
+     metadata:
+       name: app-rolebinding
+       namespace: webapps
+     roleRef:
+       apiGroup: rbac.authorization.k8s.io
+       kind: Role
+       name: app-role
+     subjects:
+       - kind: ServiceAccount
+         name: jenkins
+         namespace: webapps
+     ```
