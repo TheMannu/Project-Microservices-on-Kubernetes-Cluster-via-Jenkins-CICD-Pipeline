@@ -200,3 +200,13 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```bash
      vim secret.yaml
      ```
+
+      ```yaml
+      apiVersion: v1
+      kind: Secret
+      type: kubernetes.io/service-account-token
+      metadata:
+        name: mysecretname
+        annotations:
+          kubernetes.io/service-account.name: jenkins
+      ```
