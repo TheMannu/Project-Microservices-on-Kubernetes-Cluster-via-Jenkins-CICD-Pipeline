@@ -227,3 +227,10 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 
 ### **Step 4: Install Essential Tools**
 1. **Run the Following Commands:**
+   - Update the system:
+     ```bash
+     sudo su
+     apt update
+     sudo apt-get install curl -y
+     sudo apt-get install unzip -y
+     ```
