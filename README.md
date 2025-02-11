@@ -224,3 +224,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
     - Copy the token and save it for later use in Jenkins Configuration.
 
 ---
+
+### **Step 4: Install Essential Tools**
+1. **Run the Following Commands:**
