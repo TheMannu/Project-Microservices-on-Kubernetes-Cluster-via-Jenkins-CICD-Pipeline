@@ -220,3 +220,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
       ```bash
       kubectl describe secret mysecretname -n webapps
       ```
+
+    - Copy the token and save it for later use in Jenkins Configuration.
+
+---
