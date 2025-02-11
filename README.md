@@ -215,3 +215,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
       ```bash
       kubectl apply -f secret.yaml -n webapps
       ```
+
+    - Retrieve the token:
+      ```bash
+      kubectl describe secret mysecretname -n webapps
+      ```
