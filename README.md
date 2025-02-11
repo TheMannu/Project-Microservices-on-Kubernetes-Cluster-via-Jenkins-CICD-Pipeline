@@ -234,3 +234,9 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      sudo apt-get install curl -y
      sudo apt-get install unzip -y
      ```
+
+2. **Create a Shell Script to Install Tools:**
+   - Create a file `install.sh`:
+     ```bash
+     #!/bin/bash
+     sudo apt update -y
