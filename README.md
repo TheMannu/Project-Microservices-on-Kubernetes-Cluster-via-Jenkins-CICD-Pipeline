@@ -260,3 +260,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      sudo apt-get install docker.io -y
      sudo usermod -aG docker ubuntu
      sudo usermod -aG docker jenkins
+     newgrp docker
+     sudo chmod 777 /var/run/docker.sock
+     sudo systemctl restart jenkins
