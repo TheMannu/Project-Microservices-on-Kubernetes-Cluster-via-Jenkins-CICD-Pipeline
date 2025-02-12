@@ -254,3 +254,9 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      sudo systemctl start jenkins
      sudo systemctl status jenkins
      sudo systemctl enable jenkins
+
+     # Install Docker
+     sudo apt-get update
+     sudo apt-get install docker.io -y
+     sudo usermod -aG docker ubuntu
+     sudo usermod -aG docker jenkins
