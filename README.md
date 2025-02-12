@@ -245,3 +245,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      sudo apt update -y
      sudo apt install temurin-17-jdk -y
      /usr/bin/java --version
+
+     # Install Jenkins
+     curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
