@@ -263,3 +263,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      newgrp docker
      sudo chmod 777 /var/run/docker.sock
      sudo systemctl restart jenkins
+
+     # Install AWS CLI
+     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
