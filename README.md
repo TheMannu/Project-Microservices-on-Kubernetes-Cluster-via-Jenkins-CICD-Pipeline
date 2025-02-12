@@ -252,3 +252,5 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      sudo apt-get update -y
      sudo apt-get install jenkins -y
      sudo systemctl start jenkins
+     sudo systemctl status jenkins
+     sudo systemctl enable jenkins
