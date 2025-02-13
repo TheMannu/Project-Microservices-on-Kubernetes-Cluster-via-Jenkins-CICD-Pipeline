@@ -282,3 +282,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      sudo mv /tmp/eksctl /usr/local/bin
      eksctl version
      ```
+3. **Execute the Script:**
+   - Run the script:
+     ```bash
+     chmod +x install.sh && ./install.sh
+     ```
