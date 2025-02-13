@@ -287,3 +287,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```bash
      chmod +x install.sh && ./install.sh
      ```
+     ```
+     sudo chmod +x install.sh
+     sudo bash install.sh
+     ```
+---
