@@ -269,3 +269,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      sudo apt-get install unzip -y
      unzip awscliv2.zip
      sudo ./aws/install
+
+     # Install kubectl
+     sudo apt update
+     sudo apt install curl -y
