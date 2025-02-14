@@ -304,3 +304,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 
 2. **Install Suggested Plugins:**
    - Install the recommended plugins during the Jenkins setup.
+
+3. **Create a Jenkins Admin User:**
+   - Set up a username and password for Jenkins.
