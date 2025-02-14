@@ -296,3 +296,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 ### **Step 5: Set Up Jenkins**
 1. **Access Jenkins:**
    - Open your browser and go to `http://<public-ip>:8080` (to access jenkins console).
+   - Retrieve the initial admin password:
+     ```bash
+     sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+     ```
