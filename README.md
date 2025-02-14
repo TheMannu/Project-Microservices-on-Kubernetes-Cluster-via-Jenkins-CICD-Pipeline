@@ -300,3 +300,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```bash
      sudo cat /var/lib/jenkins/secrets/initialAdminPassword
      ```
+   - Paste the password into the Jenkins setup page.
+
+2. **Install Suggested Plugins:**
+   - Install the recommended plugins during the Jenkins setup.
