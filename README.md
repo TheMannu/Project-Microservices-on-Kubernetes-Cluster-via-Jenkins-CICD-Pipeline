@@ -311,3 +311,5 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 4. **Install Additional Plugins:**
    - Install the following plugins:
      - Docker (all plugins)
+     - Kubernetes (all plugins)
+     - Multibranch Scan Webhook Trigger
