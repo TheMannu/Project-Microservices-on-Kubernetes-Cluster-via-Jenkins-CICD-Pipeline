@@ -313,3 +313,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      - Docker (all plugins)
      - Kubernetes (all plugins)
      - Multibranch Scan Webhook Trigger
+
+5. **Set Up Credentials:**
+   - **Docker Hub Credentials:**
+     - Go to `Manage Jenkins > Credentials > Global > Add Credentials`.
