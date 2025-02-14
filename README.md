@@ -307,3 +307,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 
 3. **Create a Jenkins Admin User:**
    - Set up a username and password for Jenkins.
+
+4. **Install Additional Plugins:**
+   - Install the following plugins:
+     - Docker (all plugins)
