@@ -318,3 +318,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
    - **Docker Hub Credentials:**
      - Go to `Manage Jenkins > Credentials > Global > Add Credentials`.
      - Provide your Docker Hub username and password. Set the ID as `id==docker`.
+
+   - **GitHub Credentials:**
+     - Generate a GitHub token and add it to Jenkins with the ID `id==github`.
