@@ -339,3 +339,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 
 3. **Set Up a Webhook in github to trigger the pipeline:**
    - Go to your GitHub repository settings -> webhook -> Add a webhook.
+   - Add a webhook with the URL:
+     ```
+     http://<public-ip>:8080/multibranch-webhook-trigger/invoke?token=microservice
+     ```
