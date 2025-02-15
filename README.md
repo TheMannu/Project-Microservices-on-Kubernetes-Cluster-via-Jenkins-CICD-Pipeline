@@ -326,3 +326,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      - Add the Kubernetes token (saved earlier) as a secret text with the ID `id==k8-token`.
 
 ---
+
+### **Step 6: Create Jenkins Pipeline**
+1. **Create a Multibranch Pipeline:**
+   - Go to Jenkins and click `New Item`.
+   - Select `Multibranch Pipeline`.
