@@ -321,3 +321,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 
    - **GitHub Credentials:**
      - Generate a GitHub token and add it to Jenkins with the ID `id==github`.
+
+   - **Kubernetes Token:**
+     - Add the Kubernetes token (saved earlier) as a secret text with the ID `id==k8-token`.
+
+---
