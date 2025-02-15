@@ -331,3 +331,8 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 1. **Create a Multibranch Pipeline:**
    - Go to Jenkins and click `New Item`.
    - Select `Multibranch Pipeline`.
+
+2. **Configure the Pipeline:**
+   - Choose git from Add Source option and paste the Project `Repository URL` there
+   - Add the GitHub repository URL.
+   - Select the GitHub credentials from the dropdown.
