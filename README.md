@@ -336,3 +336,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
    - Choose git from Add Source option and paste the Project `Repository URL` there
    - Add the GitHub repository URL.
    - Select the GitHub credentials from the dropdown.
+
+3. **Set Up a Webhook in github to trigger the pipeline:**
+   - Go to your GitHub repository settings -> webhook -> Add a webhook.
