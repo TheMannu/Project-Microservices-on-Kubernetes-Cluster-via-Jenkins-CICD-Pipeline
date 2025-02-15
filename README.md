@@ -317,3 +317,4 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 5. **Set Up Credentials:**
    - **Docker Hub Credentials:**
      - Go to `Manage Jenkins > Credentials > Global > Add Credentials`.
+     - Provide your Docker Hub username and password. Set the ID as `id==docker`.
