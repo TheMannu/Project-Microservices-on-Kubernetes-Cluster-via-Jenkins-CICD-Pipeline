@@ -343,3 +343,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```
      http://<public-ip>:8080/multibranch-webhook-trigger/invoke?token=microservice
      ```
+
+4. **Trigger the Pipeline:**
+   - The pipeline will automatically trigger when changes are pushed to the repository.
