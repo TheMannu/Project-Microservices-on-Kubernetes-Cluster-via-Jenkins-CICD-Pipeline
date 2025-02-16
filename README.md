@@ -355,3 +355,10 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
    - Access the microservices using the LoadBalancer URL in your browser.
 
 ---
+
+### **Common Errors and Troubleshooting**
+- **Jenkins Pipeline Errors:**
+  - Ensure the API server endpoint in the Jenkinsfile is correct.
+  - Update the endpoint in the Jenkinsfile if necessary.
+
+---
