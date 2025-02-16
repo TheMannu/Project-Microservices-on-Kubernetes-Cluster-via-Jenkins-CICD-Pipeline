@@ -352,3 +352,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```bash
      kubectl get svc -n webapps
      ```
+   - Access the microservices using the LoadBalancer URL in your browser.
+
+---
