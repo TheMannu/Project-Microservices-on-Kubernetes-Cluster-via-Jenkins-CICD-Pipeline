@@ -346,3 +346,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
 
 4. **Trigger the Pipeline:**
    - The pipeline will automatically trigger when changes are pushed to the repository.
+
+5. **Access the Microservices:**
+   - Once deployed, run the following command to get the LoadBalancer URL:
