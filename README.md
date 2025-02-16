@@ -362,3 +362,6 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
   - Update the endpoint in the Jenkinsfile if necessary.
 
 ---
+
+## Conclusion
+This project demonstrates how to deploy 10 microservices on an EKS cluster using a Jenkins CI/CD pipeline. By following these steps, you can automate the deployment process and ensure seamless updates to your microservices.
