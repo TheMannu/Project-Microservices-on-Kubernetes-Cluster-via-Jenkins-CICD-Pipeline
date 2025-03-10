@@ -1,9 +1,10 @@
 # Deploying 10 Microservices on Kubernetes Cluster via Jenkins CI/CD Pipeline
 
-## Project Overview
+## Project Discription
 In this project, we will deploy 10 microservices on a Kubernetes cluster using a Jenkins CI/CD pipeline. The process involves setting up a base server, installing necessary tools, configuring a Kubernetes cluster (EKS) on AWS, and creating a Jenkins pipeline to fetch code from GitHub and deploy it on the EKS cluster.
 
 ---
+
 ## Project Overview
 This project focuses on deploying 10 microservices on a Kubernetes cluster using a Jenkins CI/CD pipeline. The steps include:
 
@@ -69,6 +70,7 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 3. **Generate Access Keys:**
    - Create Access keys and Secret keys for the IAM user and download them for use in the AWS CLI.
    - Download and securely store the keys for later use
+
 ---
 
 
@@ -236,7 +238,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      ```
 
 2. **Create a Shell Script to Install Tools:**
-   - Create a file `install.sh`:
+  - Create a file `install.sh`:
      ```bash
      #!/bin/bash
      sudo apt update -y
@@ -282,6 +284,7 @@ It specifies what actions (like get, list, create, delete) are allowed on certai
      sudo mv /tmp/eksctl /usr/local/bin
      eksctl version
      ```
+     
 3. **Execute the Script:**
    - Run the script:
      ```bash
