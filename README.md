@@ -115,7 +115,7 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 
    - Create a namespace for the microservices:
      ```bash
-     kubectl create namespace webapps
+     kubectl create namespace webapps  #(Create is used only for firt time)
      kubectl get namespaces
      ```
 
@@ -137,7 +137,7 @@ This project focuses on deploying 10 microservices on a Kubernetes cluster using
 
      Apply the configuration:
      ```bash
-     kubectl apply -f svc-acc.yaml
+     kubectl apply -f svc-acc.yaml  #(apply can be used of both first or any time to create, update or change created resources)
      ```
      
 8. **Create a Role `(app-role.yaml)`:** It is used to define a Role or RoleBinding for an application in your cluster. It specifies what actions the application (or a service account used by the application) is allowed to perform on specific resources within a namespace.
